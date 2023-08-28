@@ -2,8 +2,8 @@
 const vermelho = document.getElementById("nao")
 
   vermelho.addEventListener('mouseenter', () =>{
-  vermelho.style.top = Math.floor(Math.random() *  350) - 90+ 'px'
-  vermelho.style.left = Math.floor(Math.random() * 700) - 90 +'px'
+      vermelho.style.top = Math.floor(Math.random() *  350) - 90 + 'px'
+      vermelho.style.left = Math.floor(Math.random() * 700) - 200 +'px'
 })
 
 
