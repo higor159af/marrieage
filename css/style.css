@@ -21,13 +21,13 @@ h1 {
   background: url(../img/fundo.png) no-repeat left top fixed;
   background-size: cover;
   border-radius: 20px;
-  height: 350px;
+  max-height: 350px;
   margin: auto;
   padding: 20px;
   position: relative;
   text-align: center;
   top: 50px;
-  width: 900px;
+  max-width: 900px;
 }
 
 #corpo div {
@@ -48,7 +48,8 @@ button {
   margin: 10px;
   padding: 10px;
   transform: scale(1.1);
-  width: 100px;
+  max-width: 100px;
+  min-width: 50px;
 }
 .sim {
   background-color: #00fa36;
