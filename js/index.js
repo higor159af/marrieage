@@ -12,6 +12,8 @@ console.log(innerHeight)
   green.addEventListener('mouseenter', aceitar)
   green.addEventListener('mouseout', sair)
 
+  console.log(innerHeight,innerWidth)
+  console.log(Math.floor(Math.random() * innerHeight),Math.floor(Math.random() * innerWidth))
 
 // texto animado
 const el = document.querySelector("#Text");
