@@ -1,3 +1,4 @@
+import { accept } from "./ClickbuttonGreen.js";
 import { EffectMove } from "./EffectMove.js";
 import { sair } from "./buttonLightNone.js";
 import { aceitar } from "./buttonLigthGreen.js";
@@ -10,6 +11,7 @@ console.log(innerHeight)
 /* cursor entrar e sair do elemento */
   let green = document.getElementById("sim");
   green.addEventListener('mouseenter', aceitar)
+  green.addEventListener('click', accept)
   green.addEventListener('mouseout', sair)
 
   console.log(innerHeight,innerWidth)
